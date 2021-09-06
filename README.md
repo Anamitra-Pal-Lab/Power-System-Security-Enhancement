@@ -5,6 +5,14 @@ All the codes in this repository are related to the enhancement of power system 
 (2) Main_second_component.m: This program secures the power system only against post-contingency cut-set saturation, during successive transmission outage scenarios.
 These main programs utilize several user defined functions/subroutines contained in the repository. MATLAB 2017 and Gurobi (version 9) were used for developing the algorithms. 
 
+_MATLAB Version:
+The project can be run using version 2017a or higher.
+
+Additional software related information:
+1. MATPOWER 
+2. GUROBI Optimizer
+3. For better computational speed please comment out all the print statements in rundcpf.m and printpf.m_
+
 Theoretical foundations of these algorithms can be found in the following documents (available in the repository named "Papers").
 1. R. Sen Biswas, A. Pal, T. Werho, and V. Vittal, "A Graph Theoretic Approach to Power System Vulnerability Identification," IEEE Transactions on Power Systems, vol. 36, no. 2, pp. 923-935, March 2021.
 2. R. Sen Biswas, A. Pal, T. Werho, and V. Vittal, "Mitigation of Saturated Cut-sets During Multiple Outages to Enhance Power System Security," IEEE Transactions on Power Systems, April 2021.
